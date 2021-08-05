@@ -1,0 +1,161 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+	{
+		"key": "ctrl+shift+`",
+		"command": "workbench.action.terminal.openNativeConsole",
+		"when": "!terminalFocus"
+	},
+	{
+		"key": "shift+cmd+c",
+		"command": "-workbench.action.terminal.openNativeConsole",
+		"when": "!terminalFocus"
+	},
+	{
+		"key": "cmd+'",
+		"command": "workbench.action.terminal.new"
+	},
+	{
+		"key": "ctrl+shift+`",
+		"command": "-workbench.action.terminal.new"
+	},
+	{
+		"key": "cmd+;",
+		"command": "workbench.action.terminal.kill"
+	},
+	{
+		"key": "cmd+1",
+		"command": "workbench.action.openEditorAtIndex1"
+	},
+	{
+		"key": "cmd+2",
+		"command": "workbench.action.openEditorAtIndex2"
+	},
+	{
+		"key": "cmd+3",
+		"command": "workbench.action.openEditorAtIndex3"
+	},
+	{
+		"key": "cmd+4",
+		"command": "workbench.action.openEditorAtIndex4"
+	},
+	{
+		"key": "cmd+5",
+		"command": "workbench.action.openEditorAtIndex5"
+	},
+	{
+		"key": "cmd+6",
+		"command": "workbench.action.openEditorAtIndex6"
+	},
+	{
+		"key": "cmd+7",
+		"command": "workbench.action.openEditorAtIndex7"
+	},
+	{
+		"key": "cmd+8",
+		"command": "workbench.action.openEditorAtIndex8"
+	},
+	{
+		"key": "cmd+9",
+		"command": "workbench.action.openEditorAtIndex9"
+	},
+	{
+		"key": "ctrl+1",
+		"command": "workbench.action.focusFirstEditorGroup"
+	},
+	{
+		"key": "ctrl+2",
+		"command": "workbench.action.focusSecondEditorGroup"
+	},
+	{
+		"key": "ctrl+3",
+		"command": "workbench.action.focusThirdEditorGroup"
+	},
+	{
+		"key": "cmd+y",
+		"command": "workbench.action.toggleActivityBarVisibility"
+	},
+	{
+		"key": "ctrl+d",
+		"command": "editor.action.addSelectionToNextFindMatch",
+		"when": "editorFocus"
+	},
+	{
+		"key": "cmd+d",
+		"command": "-editor.action.addSelectionToNextFindMatch",
+		"when": "editorFocus"
+	},
+	{
+		"key": "\\ backspace",
+		"command": "workbench.action.showAllSymbols"
+	},
+	{
+		"key": "cmd+t",
+		"command": "-workbench.action.showAllSymbols"
+	},
+	{
+		"key": "cmd+t",
+		"command": "extension.createFile"
+	},
+	{
+		"key": "ctrl+alt+n",
+		"command": "-extension.createFile"
+	},
+	{
+		"key": "alt+f",
+		"command": "extension.createFolder"
+	},
+	{
+		"key": "ctrl+shift+alt+n",
+		"command": "-extension.createFolder"
+	},
+	{
+		"key": "cmd+backspace",
+		"command": "jupyter.deleteCells",
+		"when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+	},
+	{
+		"key": "ctrl+; x",
+		"command": "-jupyter.deleteCells",
+		"when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+	},
+	{
+		"key": "shift+cmd+down",
+		"command": "jupyter.moveCellsDown",
+		"when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+	},
+	{
+		"key": "ctrl+; d",
+		"command": "-jupyter.moveCellsDown",
+		"when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+	},
+	{
+		"key": "shift+cmd+up",
+		"command": "jupyter.moveCellsUp",
+		"when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+	},
+	{
+		"key": "ctrl+; u",
+		"command": "-jupyter.moveCellsUp",
+		"when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+	},
+	{
+		"key": "m",
+		"command": "jupyter.changeCellToMarkdown",
+		"when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+	},
+	{
+		"key": "ctrl+; m",
+		"command": "-jupyter.changeCellToMarkdown",
+		"when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+	},
+	{
+		"key": "cmd+backspace",
+		"command": "notebook.cell.delete",
+		"when": "config.jupyter.enableKeyboardShortcuts && notebookEditorFocused && !inputFocus && notebookViewType == 'jupyter-notebook'"
+	},
+	{
+		"key": "d d",
+		"command": "-notebook.cell.delete",
+		"when": "config.jupyter.enableKeyboardShortcuts && notebookEditorFocused && !inputFocus && notebookViewType == 'jupyter-notebook'"
+	}
+]

@@ -1,0 +1,23 @@
+# Mac Applications
+- [ ] 1. Alfred4 
+- [ ] 2. Amphetamine
+- [ ] 3. Bear
+- [ ] 4. BitTorrent Web
+- [ ] 5. Firefox
+- [ ] 6. Chrome
+- [ ] 7. HyperSwitch
+- [ ] 8. inkScape
+- [ ] 9. Insomnia
+- [ ] 10. Iterm2
+- [ ] 11. MongoDB Compass
+- [ ] 12. Notion
+- [ ] 13. Numi
+- [ ] 14. Popcorn Time
+- [ ] 15. Sejda
+- [ ] 16. Postman
+- [ ] 17. Spectacle
+- [ ] 18. Spotify
+- [ ] 19. VS Code
+- [ ] 20. VLC
+- [ ] 21. Tor Browser
+- [ ] 22. Figma
