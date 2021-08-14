@@ -2,7 +2,7 @@
 Last Updated: Aug 2021
 
 ## Setup 
-  1. Homebrewasasa
+  1. Homebrew
      1. Formalae
           -  git
           -  gh
