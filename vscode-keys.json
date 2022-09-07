@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
 	{
 		"key": "ctrl+shift+`",
@@ -85,7 +84,7 @@
 		"when": "editorFocus"
 	},
 	{
-		"key": "\\ backspace",
+		"key": "shift+backspace",
 		"command": "workbench.action.showAllSymbols"
 	},
 	{
@@ -157,5 +156,31 @@
 		"key": "d d",
 		"command": "-notebook.cell.delete",
 		"when": "config.jupyter.enableKeyboardShortcuts && notebookEditorFocused && !inputFocus && notebookViewType == 'jupyter-notebook'"
+	},
+	{
+		"key": "shift+cmd+enter",
+		"command": "python.execInTerminal"
+	},
+	{
+		"key": "shift+cmd+enter",
+		"command": "workbench.action.tasks.build"
+	},
+	{
+		"key": "shift+cmd+b",
+		"command": "-workbench.action.tasks.build"
+	},
+	{
+		"key": "shift+cmd+enter",
+		"command": "java.debug.runJavaFile"
+	},
+	{
+		"key": "cmd+h",
+		"command": "markdown.extension.editing.toggleBold",
+		"when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+	},
+	{
+		"key": "cmd+b",
+		"command": "-markdown.extension.editing.toggleBold",
+		"when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
 	}
 ]

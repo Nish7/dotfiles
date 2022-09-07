@@ -1,0 +1,26 @@
+Bear
+BitTorrent Web
+Firefox
+Chrome
+HyperSwitch
+Insomnia
+Iterm2
+MongoDB Compass
+Notion
+Numi
+Popcorn Time
+Postman
+Spectacle
+Cloudflare WARP
+Spotify
+visual-studio-code
+VLC
+Discord
+Min
+Raycast
+Rectangle
+Zoom.us
+Tor Browser
+Figma
+Adobe Acrobat Reader DC
+alt-tab

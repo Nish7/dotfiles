@@ -1,0 +1,27 @@
+Atom One Dark
+Auto Rename Tag
+Better Comments
+Color Highlight
+Create Files and Folders
+CSS Peek
+Debugger for Chrome
+Duplicate Selection
+ES7 React... Snippets
+ESLint
+Github Theme
+LiteServer
+Markdown all in one
+Material Icon Theme
+Prettier
+Seti Black
+Remote Repositories
+Todo Highlight 
+GitHub Codespaces
+GitHub Pull Requests and Issues
+GitHub Repositories
+Live Server
+PDF Preview
+Polacode
+Remote - SSH
+Todo Tree
+GitLens

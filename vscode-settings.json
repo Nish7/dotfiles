@@ -2,81 +2,43 @@
 	"workbench.settings.editor": "json",
 	"editor.minimap.enabled": false,
 	"breadcrumbs.enabled": true,
-	"explorer.confirmDragAndDrop": false,
-	"files.autoGuessEncoding": true,
+	"editor.fontSize": 17.3,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
 
-	//Bracket Pair
-	"bracketPairColorizer.showVerticalScopeLine": false,
-	"bracketPairColorizer.showHorizontalScopeLine": false,
-
-	//Prettier Rules
 	"prettier.singleQuote": true,
 	"prettier.useTabs": true,
-	"prettier.jsxSingleQuote": true,
-	"prettier.jsxBracketSameLine": true,
-	"editor.formatOnSave": true,
-	"prettier.printWidth": 80,
-	"editor.formatOnPaste": true,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
+	"workbench.colorCustomizations": {
+		"editorCursor.foreground": "#fff",
+		"editorCursor.opacity": "0.2",
+		"editor.lineHighlightBackground": "#e3e3e312"
+	},
+	"editor.formatOnSaveMode": "modificationsIfAvailable",
+	"eslint.format.enable": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
 	},
 
-	//Design
-	"explorer.openEditors.visible": 0,
-	"editor.multiCursorModifier": "ctrlCmd",
+
 	"editor.fontLigatures": true,
-	"editor.fontSize": 15.5,
-	"terminal.integrated.fontSize": 14,
 	"editor.fontFamily": "Anonymous Pro",
-	"markdown.preview.fontSize": 15,
 	"editor.detectIndentation": true,
-	"editor.renderLineHighlight": "none",
+	"terminal.integrated.fontSize": 16,
+	"workbench.iconTheme": "helium-icon-theme",
 
-	//Autocomplete
-	"editor.acceptSuggestionOnCommitCharacter": false,
-	"prettier.trailingComma": "all",
-
-	//Emmet
-	"emmet.includeLanguages": {
-		"javascript": "javascriptreact",
-		"vue-html": "html",
-		"razor": "html",
-		"plaintext": "pug"
-	},
-	"emmet.syntaxProfiles": {
-		"html": {
-			"attr_quotes": "single"
-		},
-		"jsx": {
-			"self_closing_tag": true
-		}
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-
-	"explorer.compactFolders": false,
-	"liveServer.settings.donotShowInfoMsg": true,
-	"files.defaultLanguage": "markdown",
+	
 	"workbench.colorTheme": "Seti Black",
-	"[json]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"security.workspace.trust.untrustedFiles": "open",
-	"[jsonc]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"todo-tree.general.tags": [
-		"BUG",
-		"HACK",
-		"FIXME",
-		"TODO",
-		"XXX",
-		"[ ]",
-		"[x]"
-	],
-	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+	"editor.accessibilitySupport": "off",
+	"helium-icon-theme.activeIconPack": "react",
+	"helium-icon-theme.folders.color": "#90a4ae",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"smartsemicolon.enable": false,
+	"smartsemicolon.autoLineChange": false,
+	"editor.formatOnSave": true,
+	"files.defaultLanguage": "markdown",
 	"window.zoomLevel": 1,
+	"liveServer.settings.donotShowInfoMsg": true,
 	"workbench.activityBar.visible": false
 }
