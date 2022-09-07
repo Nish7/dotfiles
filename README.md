@@ -3,8 +3,8 @@ Last Updated: Aug 2021
 
 ## Setup 
   1. Install Homebrew
-     1. Formalae
-     2. [Mac Applications and Casks](./mac-apps.md)
+     1. [Formales](./formulae.txt)
+     2. [Mac Applications and Casks](./apps.txt)
   2. Setup Terminal | Iterm2 | Bash
   3. Install nvm - node/npm
   4. Install Yarn
