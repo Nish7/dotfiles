@@ -1,3 +1,6 @@
 git
 gh 
 mongo-community
+nvm
+python@3.8
+yarn

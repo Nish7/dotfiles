@@ -1,6 +1,13 @@
 # Reboot Mac17 
 Last Updated: Aug 2021
 
+## Pre-Backup Checklist:
+  - [ ] check vscode settings
+  - [ ] check vscode extentions
+  - [ ] update homebrew casks/apps
+  - [ ] update homebrew formulaes
+  - [ ] check non-homebrew apps
+
 ## Setup 
   1. Install Homebrew
      1. [Formales](./formulae.txt)
@@ -9,9 +16,9 @@ Last Updated: Aug 2021
   3. Install nvm - node/npm
   4. Install Yarn
   5. Setup VSCode   
-     1. [VSCode Extentions](vscode-extentions.md) 
-     2. [Settings](vscode-settings.json)
-     3. [Keybindinds](vscode-keys.json)
+     1. [VSCode Extentions](./vscode-extentions.txt) 
+     2. [Settings](./vscode-settings.json)
+     3. [Keybindinds](./vscode-keys.json)
      4. Eslint & Prettier
   6. OS Productivity
      1. Raycast
