@@ -1,27 +1,15 @@
-Atom One Dark
-Auto Rename Tag
-Better Comments
-Color Highlight
-Create Files and Folders
-CSS Peek
-Debugger for Chrome
-Duplicate Selection
-ES7 React... Snippets
-ESLint
-Github Theme
-LiteServer
-Markdown all in one
-Material Icon Theme
-Prettier
-Seti Black
-Remote Repositories
-Todo Highlight 
-GitHub Codespaces
-GitHub Pull Requests and Issues
-GitHub Repositories
-Live Server
-PDF Preview
-Polacode
-Remote - SSH
-Todo Tree
-GitLens
+code --install-extension aaron-bond.better-comments
+code --install-extension akamud.vscode-theme-onedark
+code --install-extension alexandernanberg.horizon-theme-vscode
+code --install-extension bobsparadox.seti-black
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension geeebe.duplicate
+code --install-extension helgardrichard.helium-icon-theme
+code --install-extension naumovs.color-highlight
+code --install-extension pranaygp.vscode-css-peek
+code --install-extension ritwickdey.create-file-folder
+code --install-extension ritwickdey.LiveServer
+code --install-extension svelte.svelte-vscode
