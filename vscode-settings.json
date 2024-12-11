@@ -1,44 +1,80 @@
 {
-	"workbench.settings.editor": "json",
-	"editor.minimap.enabled": false,
-	"breadcrumbs.enabled": true,
-	"editor.fontSize": 17.3,
-	"editor.bracketPairColorization.enabled": true,
-	"editor.guides.bracketPairs": "active",
-
-	"prettier.singleQuote": true,
-	"prettier.useTabs": true,
-	"workbench.colorCustomizations": {
-		"editorCursor.foreground": "#fff",
-		"editorCursor.opacity": "0.2",
-		"editor.lineHighlightBackground": "#e3e3e312"
-	},
-	"editor.formatOnSaveMode": "modificationsIfAvailable",
-	"eslint.format.enable": true,
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
-	},
-
-
-	"editor.fontLigatures": true,
-	"editor.fontFamily": "Anonymous Pro",
-	"editor.detectIndentation": true,
-	"terminal.integrated.fontSize": 16,
-	"workbench.iconTheme": "helium-icon-theme",
-
-	
-	"workbench.colorTheme": "Seti Black",
-	"editor.accessibilitySupport": "off",
-	"helium-icon-theme.activeIconPack": "react",
-	"helium-icon-theme.folders.color": "#90a4ae",
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"explorer.confirmDragAndDrop": false,
-	"explorer.compactFolders": false,
-	"smartsemicolon.enable": false,
-	"smartsemicolon.autoLineChange": false,
-	"editor.formatOnSave": true,
-	"files.defaultLanguage": "markdown",
-	"window.zoomLevel": 1,
-	"liveServer.settings.donotShowInfoMsg": true,
-	"workbench.activityBar.visible": false
+    "workbench.settings.editor": "json",
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
+    "editor.fontSize": 14.5,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "prettier.singleQuote": true,
+    "prettier.useTabs": true,
+    "workbench.colorCustomizations": {
+        "editor.background": "#0E0E0E",
+        "tab.inactiveBackground": "#0E0E0E",
+        "sideBar.background": "#0E0E0E",
+        "terminal.foreground": "#0E0E0E",
+        "terminal.background": "#0E0E0E",
+        "panel.background": "#0E0E0E",
+        "panel.border": "#e3e3e312",
+        "statusBar.background": "#0E0E0E",
+        "activityBar.background": "#0E0E0E",
+        "titleBar.activeBackground": "#0E0E0E",
+        "breadcrumb.background": "#0E0E0E",
+        "editorGroupHeader.tabsBackground": "#0E0E0E",
+        "editorGutter.background": "#0E0E0E",
+        "editorCursor.foreground": "#fff",
+        "editorCursor.opacity": "0.2",
+        "editor.lineHighlightBackground": "#e3e3e312"
+    },
+    "editor.cursorBlinking": "solid",
+    "editor.fontFamily": "Geist Mono",
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "editor.fontLigatures": true,
+    "editor.detectIndentation": true,
+    "terminal.integrated.fontSize": 14,
+    "workbench.iconTheme": "helium-icon-theme",
+    "workbench.colorTheme": "Rosé Pine (no italics)",
+    "editor.accessibilitySupport": "off",
+    "helium-icon-theme.activeIconPack": "react",
+    "helium-icon-theme.folders.color": "#90a4ae",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+    "files.defaultLanguage": "markdown",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.layoutControl.enabled": false,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "haskell.manageHLS": "GHCup",
+    "git.autofetch": true,
+    "editor.inlineSuggest.enabled": true,
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "relative",
+    "flake8.args": [
+        "--ignore=E501"
+    ],
+    "flake8.path": [
+        "python3 -m "
+    ],
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.statusBar.visible": false,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "workbench.editor.pinnedTabSizing": "compact",
+    "window.density.editorTabHeight": "compact",
+    "workbench.activityBar.location": "hidden"
 }
