@@ -51,4 +51,11 @@ install_casks
 echo "Cleaning up..."
 brew cleanup
 
+# Setup Symlinks
+echo "Setting Up Symlinks"
+ln -sf ~/.config/dotfiles/.zshrc ~/.zshrc
+ln -sf ~/.config/dotfiles/starship.toml ~/.config/starship.toml
+mkdir ~/.config/ghostty
+ln -sf ~/.config/dotfiles/ghostty-config ~/.config/ghostty/config
+
 echo "Installation process completed."
