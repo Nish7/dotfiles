@@ -1,31 +1,22 @@
-# Reboot Mac17 
-Last Updated: Aug 2021
-
-## Pre-Backup Checklist:
-  - [ ] check vscode settings
-  - [ ] check vscode extentions
-  - [ ] update homebrew casks/apps
-  - [ ] update homebrew formulaes
-  - [ ] check non-homebrew apps
+# Reboot Mac25 
+Last Updated: Jan 2025
 
 ## Setup 
   1. Install Homebrew
      1. [Formales](./formulae.txt)
      2. [Mac Applications and Casks](./apps.txt)
-  2. Setup Terminal | Iterm2 | Bash
-  3. Install nvm - node/npm
-  4. Install Yarn
-  5. Setup VSCode   
-     1. [VSCode Extentions](./vscode-extentions.txt) 
-     2. [Settings](./vscode-settings.json)
-     3. [Keybindinds](./vscode-keys.json)
-     4. Eslint & Prettier
-  6. OS Productivity
+  2. OS Productivity
      1. Raycast
      2. Rectangle
      3. alt-tab
+  3. Setup Terminal (starship) | Ghostty
+  4. Setup NVIM
+  5. Setup TMUX
+  6. Setup VSCode   
+     2. [Settings](./vscode-settings.json)
+     3. [Keybindinds](./vscode-keys.json)
   7. OS Settings
      1. Dock
      2. Finder
-  8. Setup Chrome 
+  8. Setup Browser (Zen/Safari)
       
