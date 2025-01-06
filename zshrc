@@ -1,1 +1,0 @@
-/Users/nish7/.zshrc
