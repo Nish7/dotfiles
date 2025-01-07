@@ -3,7 +3,7 @@ theme=rose-pine
 background="#0e0e0e"
 cursor-style="block"
 mouse-hide-while-typing = true
-macos-titlebar-style="transparent"
+macos-titlebar-style="hidden"
 shell-integration-features = no-cursor, sudo, title
 
 adjust-cell-height = 25%

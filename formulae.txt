@@ -3,6 +3,7 @@ gh
 fnm
 nvim
 fzf
+tpm
 neofetch
 zsh-autosuggestions
 lazygit
@@ -12,3 +13,5 @@ tmux
 wget
 starship
 python@3.12
+bat
+zoxide

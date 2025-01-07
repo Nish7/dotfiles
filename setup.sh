@@ -57,5 +57,6 @@ ln -sf ~/.config/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/.config/dotfiles/starship.toml ~/.config/starship.toml
 mkdir ~/.config/ghostty
 ln -sf ~/.config/dotfiles/ghostty-config ~/.config/ghostty/config
+ln -sf ~/.config/dotfiles/tmux-conf ~/.tmux.conf
 
 echo "Installation process completed."
