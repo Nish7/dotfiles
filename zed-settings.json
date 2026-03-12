@@ -1,0 +1,175 @@
+{
+  "agent_servers": {
+    "claude-acp": {
+      "type": "registry"
+    }
+  },
+  "edit_predictions": {
+    "provider": "none"
+  },
+  "cursor_shape": "block",
+  "lsp_highlight_debounce": 999999999,
+  "diagnostics": {
+    "lsp_pull_diagnostics": {
+      "debounce_ms": 500
+    },
+    "inline": {
+      "update_debounce_ms": 850
+    }
+  },
+  "inlay_hints": {
+    "scroll_debounce_ms": 100
+  },
+  "close_on_file_delete": true,
+  "scrollbar": {
+    // "show": "never",
+  },
+  "experimental.theme_overrides": {
+    "background": "#1D2021",
+    "editor.background": "#1D2021",
+    "editor.gutter.background": "#1D2021",
+    "panel.background": "#1D2021",
+    "tab_bar.background": "#1D2021",
+    "title_bar.background": "#1D2021",
+    "status_bar.background": "#1D2021",
+    "terminal.background": "#1D2021",
+    "editor.active_line.background": "#1D2021",
+    "border": "#222",
+    "tab.active_background": "#1D2021",
+    "tab.inactive_background": "#1D2021",
+    "scrollbar.track.border": "#1D2021",
+    "scrollbar.thumb.background": "#a8998409",
+    "scrollbar.thumb.border": "#a8998400"
+  },
+  "ui_font_size": 15.0,
+  "always_treat_brackets_as_autoclosed": false,
+  "colorize_brackets": false,
+  "hover_popover_enabled": false,
+  "hover_popover_delay": 0,
+  "gutter": {
+    "line_numbers": false,
+  },
+  "terminal": {
+    "font_size": 15.0,
+  },
+  "outline_panel": {
+    "auto_fold_dirs": false,
+  },
+  "ssh_connections": [
+    {
+      "host": "moon.cs.torontomu.ca",
+      "username": "n6kapadi",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/n6kapadi/./"
+          ]
+        },
+        {
+          "paths": [
+            "/home/n6kapadi/Zag-Smalltalk"
+          ]
+        },
+        {
+          "paths": [
+            "/home/n6kapadi/cps04"
+          ]
+        },
+        {
+          "paths": [
+            "/home/n6kapadi/cps510"
+          ]
+        },
+        {
+          "paths": [
+            "/home/n6kapadi/cps710"
+          ]
+        }
+      ]
+    }
+  ],
+  "language_models": {
+    "openai_compatible": {},
+    "anthropic": {
+      "available_models": [
+        {
+          "name": "claude-sonnet-4-20250514",
+          "display_name": "Claude Sonnet 4 (1M beta)",
+          "max_tokens": 1000000,
+          "max_output_tokens": 8192,
+          "extra_beta_headers": ["context-1m-2025-08-07"],
+          "mode": {
+            "type": "thinking",
+            "budget_tokens": 4096,
+          },
+        },
+      ],
+    },
+  },
+  "agent": {
+    "tool_permissions": {
+      "default": "allow"
+    },
+    "inline_assistant_model": {
+      "provider": "openai",
+      "model": "gpt-5.2-codex",
+    },
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "openrouter",
+      "model": "google/gemini-3.1-pro-preview",
+    },
+    "model_parameters": [],
+  },
+  "vertical_scroll_margin": 5,
+  "relative_line_numbers": "enabled",
+  "vim_mode": true,
+  "buffer_font_size": 14.0,
+  "scroll_beyond_last_line": "vertical_scroll_margin",
+  "buffer_font_family": ".ZedMono",
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Gruvbox Dark Hard",
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+  },
+  "project_panel": {
+    "hide_hidden": false,
+    "auto_fold_dirs": false,
+  },
+  "file_scan_inclusions": [".claude/*"],
+  "file_scan_exclusions": [
+    "**/.ruff_cache",
+    // default values below
+    "**/.git",
+    "**/*.o",
+    "**/*.sym",
+    // "**/_*",
+    "**/*.asm",
+    "**/*.d",
+    "**/*.S",
+    "**/*.svn",
+    "**/.hg",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+  ],
+  "indent_guides": {
+    "enabled": false,
+  },
+  "soft_wrap": "editor_width",
+  "cursor_blink": false,
+  "format_on_save": "off",
+  "remove_trailing_whitespace_on_save": false,
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+    },
+  },
+}

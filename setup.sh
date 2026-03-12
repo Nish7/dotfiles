@@ -58,5 +58,8 @@ ln -sf ~/.config/dotfiles/starship.toml ~/.config/starship.toml
 mkdir ~/.config/ghostty
 ln -sf ~/.config/dotfiles/ghostty-config ~/.config/ghostty/config
 ln -sf ~/.config/dotfiles/tmux-conf ~/.tmux.conf
+mkdir -p ~/.config/zed
+ln -sf ~/.config/dotfiles/zed-settings.json ~/.config/zed/settings.json
+ln -sf ~/.config/dotfiles/zed-keymap.json ~/.config/zed/keymap.json
 
 echo "Installation process completed."

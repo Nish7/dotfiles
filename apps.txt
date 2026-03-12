@@ -6,7 +6,6 @@ notion
 rectangle
 spotify
 surfshark
-visual-studio-code
 zoom
 ghostty
 zen-browser
