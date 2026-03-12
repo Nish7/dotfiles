@@ -1,5 +1,5 @@
 git
-gh 
+gh
 fnm
 nvim
 fzf
@@ -15,3 +15,14 @@ starship
 python@3.12
 bat
 zoxide
+black
+bottom
+clang-format
+just
+llvm
+mole
+opencode
+openjdk@21
+pandoc
+pnpm
+zig
