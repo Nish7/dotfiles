@@ -1,6 +1,5 @@
 # paths
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
-export PATH="/Users/nish7/Downloads/Fall2025/EclipseProlog/bin/x86_64_macosx:$PATH"
 export PATH=/opt/homebrew/opt/python@3.12/libexec/bin:$PATH
 export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
