@@ -1,11 +1,14 @@
-font-size=16
-theme=rose-pine
-background="#0e0e0e"
+font-family = "Zed Mono"
+font-style-italic = false
+font-size = 14
+theme = light:Atom One Light,dark:MyDark
 cursor-style="block"
 mouse-hide-while-typing = true
-macos-titlebar-style="hidden"
+window-decoration="auto"
+macos-titlebar-style = "tabs"
 shell-integration-features = no-cursor, sudo, title
-
 adjust-cell-height = 25%
 window-padding-balance = true
 window-save-state = always
+mouse-scroll-multiplier = 1
+macos-option-as-alt = true

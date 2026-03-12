@@ -2,8 +2,8 @@
 setw -g mode-keys vi
 
 # Pane border customization
-set-option -g pane-border-style "fg=#1a1a1a"   # Gruvbox gray
-set-option -g pane-active-border-style "fg=#1a1a1a"  # Disable highlighting (same as inactive)
+set-option -g pane-border-style "fg=#c9c9c9,bg=default"  # Very light gray border
+set-option -g pane-active-border-style "fg=#c9c9c9,bg=default"
 
 # Pane border thickness (uses Unicode box characters)
 set-window-option -g pane-border-lines single  # Options: thin, heavy, double, simple
@@ -58,6 +58,10 @@ set -g detach-on-destroy off
 
 # address vim mode switching delay (http://superuser.com/a/252717/65504)
 set -s escape-time 0
+
+# copy-mode vi-style visual selection
+bind-key -T copy-mode-vi v send-keys -X begin-selection
+bind-key -T copy-mode-vi y send-keys -X copy-selection-and-cancel
 
 set -as terminal-features ",*:RGB"
 # set -g default-terminal "tmux-256color"
@@ -164,6 +168,8 @@ bind C-e display-popup -E "\
     fzf --reverse --header jump-to-session |\
     xargs tmux switch-client -t"
 
+# Toggle the status bar visibility
+bind-key z set-option status
 # Move tmux status bar to top
 bind-key C-k run-shell "tmux set-option -g status-position top;"
 # Move tmux status bar to bottom
