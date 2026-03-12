@@ -1,5 +1,11 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 add_newline = false
+format = '$time$all'
+
+[time]
+disabled = false
+format = '[$time]($style) '
+time_format = '%I:%M %p'
 [character] # The name of the module we are configuring is 'character'
 success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
 [package]
