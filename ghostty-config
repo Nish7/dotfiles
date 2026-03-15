@@ -12,8 +12,7 @@ window-padding-balance = true
 window-save-state = always
 mouse-scroll-multiplier = 1
 macos-option-as-alt = true
-
-
+unfocused-split-opacity = 1
 keybind = ctrl+n=new_window
 
 keybind = ctrl+h=goto_split:left
